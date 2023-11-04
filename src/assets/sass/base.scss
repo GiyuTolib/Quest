@@ -3,3 +3,38 @@
     padding: 0;
     box-sizing: border-box;
 }
+img{
+    width: 100%;
+    height: 100%;
+}
+ul, ol{
+    list-style-type: none;
+}
+button, i{
+    cursor: pointer;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.container{
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+}
+.btn-primary{
+    padding: 12px 20px;
+    border-radius: 26px;
+    border: none;
+    background-color: blue;
+    color: white;
+    font-size: 2rem;
+}
+.btn-secondary{
+    @extend .btn-primary;
+    background-color: brown;
+}
+.w-full{
+    width: 100%;
+}
+
