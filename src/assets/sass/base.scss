@@ -34,6 +34,20 @@ a{
     @extend .btn-primary;
     background-color: brown;
 }
+.btn-seccsess{
+    padding: 2px 8px;
+    border-radius: 8px;
+    border: none;
+    color: var(--white);
+    font-size: 1.2rem;
+    background-color: var(--moss-green);
+}
+.btn-carl{
+    @extend .btn-primary;
+    padding: 6px 20px;
+    font-size: 1.5rem;
+    background-color: var(--coral);
+}
 .w-full{
     width: 100%;
 }
