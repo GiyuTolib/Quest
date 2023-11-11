@@ -1,6 +1,7 @@
 <template>
-  <div class="quest-page">
+  <div class="quest-page a1">
     <h1>This page is not working yet</h1>
+    <button class="btn-carl"><router-link to="/">Qaytish</router-link></button>
   </div>
 </template>
 
@@ -10,6 +11,10 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
+    .a1{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
 </style>
